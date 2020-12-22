@@ -5,13 +5,13 @@ app.use(express.json())
 
 // Get Data from Database
 
-  app.get('/user',(req, res)=>{
-    db.query( 'SELECT * FROM details',(err,result)=>{
-      res.send(result)
-      if (err) throw err;
-      console.log(result);
-    });
-  });
+  // app.get('/user',(req, res)=>{
+  //   db.query( 'SELECT * FROM details',(err,result)=>{
+  //     res.send(result)
+  //     if (err) throw err;
+  //     console.log(result);
+  //   });
+  // });
 
 // Insert Data in Database
 
